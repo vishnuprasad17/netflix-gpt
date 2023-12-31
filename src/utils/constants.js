@@ -9,7 +9,7 @@ export const LOGO =
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxZjdlZjM2OTI0YjgxYmQ3ZDdlNTMyNmUwY2JiMzViYSIsInN1YiI6IjY1OTAxODQ4NmFhOGUwNjE1M2VhYmU3MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.CVX2EC_q0oMr_lNwM_ZL7mw-2yyAh2rkm83Y5Fuydsc'
+      Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
     }
   };
 
