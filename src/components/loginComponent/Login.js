@@ -10,7 +10,7 @@ import { addUser } from "../../utils/store/userSlice";
 
 const Login = () => {
     const dispatch = useDispatch();
-    const [isSignUpForm, setIsSignUpForm] = useState(true);
+    const [isSignUpForm, setIsSignUpForm] = useState(false);
     const changeForm = () => {
         setIsSignUpForm(!isSignUpForm);
         setError(false);
@@ -90,7 +90,7 @@ const Login = () => {
 
             </div>
 
-            <div className="formDiv sm:p-8 p-4 rounded-md w-11/12 sm:w-6/12">
+            <div className="formDiv sm:p-8 p-4 rounded-md w-11/12 sm:w-3/12">
 
                 <div className="sm:text-4xl text-3xl font-bold mb-8 text-white">Sign {isSignUpForm ? "Up" : "In"} </div>
 
