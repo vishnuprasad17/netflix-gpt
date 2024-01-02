@@ -95,7 +95,7 @@ const Login = () => {
                 <div className="sm:text-4xl text-3xl font-bold mb-8 text-white">Sign {isSignUpForm ? "Up" : "In"} </div>
 
                 {error &&
-                    <div className="bg-yellow-300 font-bold  mb-5 p-3 rounded text-yellow-900">{error}</div>
+                    <div className="bg-yellow-300 font-bold  mb-5 p-3 rounded text-white">{error}</div>
                 }
 
 
